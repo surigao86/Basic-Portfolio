@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;   
+    color: #777;
+    margin: 0;
+    background-image: url(../images/papyrus.png);
+}
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.header-wrap {
+    background: #fff;
+    border-bottom: 1px solid #ccc; 
+}
+.name-wrap {
+    background: #4aaaa5;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    margin: 20px 0 0;
+}
+.nav {
+    float: right;
+}
+.nav ul {
+    list-style: none;
+    padding: 20px 0;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+.nav a {
+    text-decoration: none;
+    color: #a3a3a3;
+}
+.nav a:hover {
+    color: #ccc;
+}
