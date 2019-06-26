@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;   
     color: #777;
@@ -48,4 +55,29 @@ body {
 }
 .nav a:hover {
     color: #ccc;
+}
+
+.content {
+    padding: 20px;
+    margin: 10px 0; 
+    border: 1px solid #ddd;
+}
+.content img {
+    margin: 0 20px 20px 0;
+    float: left;
+}
+.content p {
+    line-height: 24px;
+}
+.footer {
+    padding: 20px;
+    background: #666;
+    border-top: 5px solid #4aaaa5;
+}
+.footer .container {
+    background: transparent;
+    text-align: center;
+}
+.footer p {
+    margin: 0 auto;
 }
